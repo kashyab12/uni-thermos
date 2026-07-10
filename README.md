@@ -11,7 +11,13 @@ This ports Cursor's `thermo-nuclear-code-quality-review` skill into a standard `
 - `install.sh` installs the skill into Codex, Claude Code, or both.
 - `scripts/validate.sh` validates frontmatter, shell scripts, portability, and install smoke.
 
-Install both targets:
+Install via [skills.sh](https://www.skills.sh/kashyab12/uni-thermos):
+
+```bash
+npx skills add kashyab12/uni-thermos
+```
+
+Or from a clone, install both targets:
 
 ```bash
 ./install.sh --all --yes
